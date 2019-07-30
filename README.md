@@ -25,7 +25,7 @@ You should be able to access the site at http://localhost:90
 
 - If you have already MySql running on the port 3306, change the port in the docker-compose.yml file
 
-- Same with the port 80: if Apache or any other webservers are running on the port 80, change the port in the docker-compose.yml file
+- Same with the port 80 (or 90): if Apache or any other webservers are running on the port 80 (or 90), change the port in the docker-compose.yml file
 
 - If you see the error 404, you should check the index path in environment/nginx/conf.d
 
